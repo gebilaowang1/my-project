@@ -1,0 +1,38 @@
+import Vue from 'vue'
+import { Button, Layout, Sider, Menu, MenuItem, Icon, Header, Content, Breadcrumb, BreadcrumbItem, Submenu, Input, Card, Row, Col, Option, Select, Table, Tooltip, Form, FormItem, Page, DatePicker, Tabs, TabPane, Checkbox, Modal, Message, RadioGroup, Radio, Tag, CheckboxGroup, Upload } from 'view-design'
+
+import 'view-design/dist/styles/iview.css'
+
+Vue.component('Button', Button)
+Vue.component('Layout', Layout)
+Vue.component('Sider', Sider)
+Vue.component('Menu', Menu)
+Vue.component('MenuItem', MenuItem)
+Vue.component('Icon', Icon)
+Vue.component('Header', Header)
+Vue.component('Content', Content)
+Vue.component('Breadcrumb', Breadcrumb)
+Vue.component('BreadcrumbItem', BreadcrumbItem)
+Vue.component('Submenu', Submenu)
+Vue.component('Input', Input)
+Vue.component('Row', Row)
+Vue.component('Col', Col)
+Vue.component('Card', Card)
+Vue.component('Option', Option)
+Vue.component('Select', Select)
+Vue.component('Table', Table)
+Vue.component('Tooltip', Tooltip)
+Vue.component('Form', Form)
+Vue.component('FormItem', FormItem)
+Vue.component('Page', Page)
+Vue.component('DatePicker', DatePicker)
+Vue.component('Tabs', Tabs)
+Vue.component('TabPane', TabPane)
+Vue.component('Checkbox', Checkbox)
+Vue.component('Modal', Modal)
+Vue.component('RadioGroup', RadioGroup)
+Vue.component('Radio', Radio)
+Vue.component('Tag', Tag)
+Vue.component('CheckboxGroup', CheckboxGroup)
+Vue.component('Upload', Upload)
+Vue.prototype.$Message = Message
